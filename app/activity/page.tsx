@@ -2,7 +2,7 @@
 import { Activity, useState } from "react";
 import Sidebar from "../components/sidebar";
 
-export default function Home() {
+export default function ActivityPage() {
   const [isShowingSidebar, setIsShowingSidebar] = useState(true);
 
   return (
